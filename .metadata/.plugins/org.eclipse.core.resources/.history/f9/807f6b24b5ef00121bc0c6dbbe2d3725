@@ -1,0 +1,16 @@
+package com.kyler.mbq.mbqscpuguide;
+
+import eu.inmite.android.lib.dialogs.BaseDialogFragment;
+import eu.inmite.android.lib.dialogs.SimpleDialogFragment;
+
+public class ChangelogDialog extends BaseDialogFragment {
+
+	@Override
+	protected Builder build(Builder initialBuilder) {
+		// TODO Auto-generated method stub
+		return null;
+		
+		SimpleDialogFragment.createBuilder(this, getSupportFragmentManager()).setMessage(R.string.welcome_to_my_cpu_guide_).show();
+	}
+
+}
