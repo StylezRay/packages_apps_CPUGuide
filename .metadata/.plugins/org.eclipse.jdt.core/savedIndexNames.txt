@@ -1,5 +1,0 @@
-INDEX VERSION 1.126+C:\Users\MBQ\Desktop\CPUGuide\.metadata\.plugins\org.eclipse.jdt.core
-715257351.index
-1125919416.index
-1531412002.index
-1182712546.index
