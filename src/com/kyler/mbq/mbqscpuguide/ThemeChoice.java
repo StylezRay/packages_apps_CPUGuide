@@ -10,8 +10,8 @@ public class ThemeChoice extends Fragment {
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-							 Bundle savedInstanceState) {
-	    final View v = inflater.inflate(R.layout.theme, container, false);
-	    return v;
+		Bundle savedInstanceState) {
+		final View v = inflater.inflate(R.layout.theme, container, false);
+	return v;
 	}
 }

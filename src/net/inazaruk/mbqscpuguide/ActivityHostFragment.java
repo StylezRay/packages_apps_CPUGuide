@@ -25,9 +25,6 @@ import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.view.Window;
 
-/**
- * This is a fragment that will be used during transition from activities to fragments.
- */
 public abstract class ActivityHostFragment extends LocalActivityManagerFragment {
 
   protected abstract Class<? extends Activity> getActivityClass();
@@ -39,7 +36,6 @@ public abstract class ActivityHostFragment extends LocalActivityManagerFragment 
     final Class<? extends Activity> activityClass = getActivityClass();
     if (activityClass == null)
       return super.onCreateView(inflater, container, savedInstanceState);
-
     final Intent intent = new Intent(getActivity(), getActivityClass());
 
     @SuppressWarnings("deprecation")

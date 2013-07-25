@@ -203,7 +203,6 @@ public class MainActivity extends FragmentActivity {
     		"zRAM Explanation" ,
 			
 			"Theme" };
-
 	
     final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
         android.R.layout.simple_list_item_1, android.R.id.text1, values);
@@ -216,13 +215,11 @@ public class MainActivity extends FragmentActivity {
       public void onItemClick(AdapterView<?> adapter, View v, int position,
           long flags) {
     	  
-        showFragment(position);
-        
+        showFragment(position);     
       }
     });
 
-    showFragment(0);
-    
+    showFragment(0);    
   }
 
   private void showFragment(int position) {
@@ -479,10 +476,8 @@ public class MainActivity extends FragmentActivity {
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
       MenuInflater inflater = getMenuInflater();
-      inflater.inflate(R.menu.main, menu);
-      
-	return true;
-	
+      inflater.inflate(R.menu.main, menu);      
+	return true;	
   }
   
   @Override
@@ -499,16 +494,11 @@ public class MainActivity extends FragmentActivity {
           versionalert.setNeutralButton("OK", new DialogInterface.OnClickListener() {
 
               public void onClick(DialogInterface arg0, int arg1) {
-
               }
           });
-
-          versionalert.show();
-          
+          versionalert.show();         
           break;       
-
-     }
-     
+     }    
      return true;
   }
 }

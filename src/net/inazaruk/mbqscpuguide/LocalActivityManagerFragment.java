@@ -21,9 +21,6 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 
-/**
- * This is a fragment that will be used during transition from activities to fragments.
- */
 @SuppressWarnings("deprecation")
 public class LocalActivityManagerFragment extends Fragment {
   private static final String TAG = LocalActivityManagerFragment.class.getSimpleName();
@@ -32,9 +29,8 @@ public class LocalActivityManagerFragment extends Fragment {
   private static final String KEY_STATE_BUNDLE = "localActivityManagerState";
 
   private LocalActivityManager mLocalActivityManager;
-
-
   protected LocalActivityManager getLocalActivityManager() {
+  
     return mLocalActivityManager;
   }
 
