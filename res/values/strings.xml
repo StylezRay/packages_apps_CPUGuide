@@ -4,26 +4,26 @@
 <resources>
 
     <string name="app_name">MBQs CPU Guide</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Options</string>
     <string name="version">Version</string>
 	<string name="holo_theme">Holo</string>
-    <string name="welcome_to_my_cpu_guide_">Welcome to alpha 7 of my CPU Guide.</string>
-    <string name="please_slide_right_to_open_the_menu_">Please slide right to open the menu.</string>
+    <string name="welcome_to_my_cpu_guide_">Welcome to my CPU Guide!</string>
+    <string name="please_slide_right_to_open_the_menu_">Please slide right to access the menu.</string>
     <string name="cpu_governors">CPU Governors</string>
     <string name="i_o_schedulers">I/O Schedulers</string>
     <string name="tcp_algorithms">TCP Algorithms</string>
     <string name="help">Help</string>
     <string name="general">General</string>
     <string name="governors">Governors</string>
-    <string name="bfq_def">Gives each request a time budget. If the request is not met by the time it is given, the request is skipped. Smarter than the CFQ governor.</string>
+    <string name="bfq_def">Gives each request a time budget. If the request is not met by the time it is given, the request is skipped. Smarter than the CFQ scheduler.</string>
     <string name="bfq">BFQ</string>
-    <string name="android_tips_section">Android tips section</string>
+    <string name="android_tips_section">Android tips section.</string>
     <string name="tips">Tips</string>
-    <string name="autobrightness_info">Download an app called \'lux\' and use that app. It\'ll take of any problems you\'re having, plus it\'ll save you battery.</string>
-    <string name="autobrightness_sucks">Auto-brightness sucks</string>
+    <string name="autobrightness_info">Download an app called \'lux\'. It is an enhanced autobrightness app.</string>
+    <string name="autobrightness_sucks">Auto-brightness</string>
     <string name="better_battery_life_content">TBD</string>
-    <string name="better_battery_life_header">Better battery life</string>
-    <string name="block_ads_content">Download an app called \'adblock\' on the play store, run it normally, accept the SU request, hit \'skip\' and run the program, exit out, and reboot!</string>
+    <string name="better_battery_life_header">Get better battery life</string>
+    <string name="block_ads_content">Download an app called \'adblock\' on the Play Store, run it normally, and accept the SU request, hit \'skip\' and run the program, exit out, and reboot!</string>
     <string name="block_ads">Block ads</string>
     <string name="brazilian_wax_definition">Similar to smartassV2, the only real difference is, it scales more aggressively than SAv2 does, which reduces battery life, while improving performance.</string>
     <string name="brazilianwax">BrazilianWax</string>
@@ -31,7 +31,7 @@
     <string name="cfq">CFQ</string>
     <string name="change_boot_animation_content">Go to system/media, you\'ll see bootanimation.zip, replace it with your desired bootanimation, change permissions to r-w-rr (read-write-read-read), and reboot. (Assuming you\'re doing this on your phone)</string>
     <string name="change_your_bootanimation">Change your bootanimation</string>
-    <string name="change_screen_density_content">In your build.prop, there is a line of code that looks like this: ro.sf.lcd_density=320, change it to 240 for a tablet-ish feel. Don\'t go under 160 though, you\'ll have endless bootloops</string>
+    <string name="change_screen_density_content">In your build.prop, there is a line of code that looks like this: ro.sf.lcd_density=320, change it to 240 for a tablet feel. Don\'t go under 160 though, you\'ll get endless bootloops</string>
     <string name="change_dpi">Change DPI</string>
     <string name="conservative_definition">"Conservative means that it scales conservatively, not that it is conservative. It pretty much very similar to Interactive in that it scales up and down in frequency steps. It actually can be one of the most aggressive governors out there. "</string>
     <string name="conservative">Conservative</string>
@@ -52,7 +52,7 @@
     <string name="force_gpu_rendering">Force GPU Rendering</string>
     <string name="help_section_content">TBD</string>
     <string name="help_header_in_layout">Coming soon.</string>
-    <string name="hotplug_definition">Based off of Ondemand. It allows a CPU to go offline with minimal usage. When you\'re sending messages, browsing settings, or other simple tasks, most likely one of your CPUs will be offline.</string>
+    <string name="hotplug_definition">Based off of Ondemand. It allows a CPU to go offline when under minimal usage. When you\'re sending messages, browsing Settings, or other simple tasks, most likely one of your CPUs will be offline.</string>
     <string name="hotplug">Hotplug</string>
     <string name="hotplug_x_definition">It\'s basically a smarter Hotplug. To my knowledge, it shuts off the second core much faster, and is a little bit smarter with CPU scaling and power efficiency.</string>
     <string name="hotplugx">HotplugX</string>
@@ -88,9 +88,9 @@
     <string name="ondemandplus">OndemandPlus</string>
     <string name="pegasusq_definition">Samsungs own Governor for multi-core phones. Based off of Ondemand. This kernel controls hotplugging as well.</string>
     <string name="pegasusq">PegasusQ</string>
-    <string name="performance_definition">Will constantly run at the highest set CPU speed.</string>
+    <string name="performance_definition">Will constantly run at the highest set CPU frequency.</string>
     <string name="performance">Performance</string>
-    <string name="powersave_definition">Will constantly use your min CPU speed.</string>
+    <string name="powersave_definition">Will constantly use your minimum set CPU frequency.</string>
     <string name="powersave">Powersave</string>
     <string name="reno_definition">Basically the same as Tahoe, but.. if 3 of the same packets are received, it will halve the window, instead of reducing it to one MS. It changes the slow start threshold equal to that of the congestion window.</string>
     <string name="reno">Reno</string>
