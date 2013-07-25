@@ -240,7 +240,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:actions_layout
+          @attr name shared.ui.actionscontentview:actions_layout
         */
         public static final int ActionsContentView_actions_layout = 6;
         /**
@@ -258,7 +258,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:actions_spacing
+          @attr name shared.ui.actionscontentview:actions_spacing
         */
         public static final int ActionsContentView_actions_spacing = 5;
         /**
@@ -270,7 +270,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:content_layout
+          @attr name shared.ui.actionscontentview:content_layout
         */
         public static final int ActionsContentView_content_layout = 7;
         /**
@@ -282,7 +282,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:effect_actions
+          @attr name shared.ui.actionscontentview:effect_actions
         */
         public static final int ActionsContentView_effect_actions = 13;
         /**
@@ -294,7 +294,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:effect_content
+          @attr name shared.ui.actionscontentview:effect_content
         */
         public static final int ActionsContentView_effect_content = 14;
         /**
@@ -319,7 +319,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>all</code></td><td>15</td><td> All (Opening and Closing). </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:effects
+          @attr name shared.ui.actionscontentview:effects
         */
         public static final int ActionsContentView_effects = 2;
         /**
@@ -331,7 +331,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:effects_interpolator
+          @attr name shared.ui.actionscontentview:effects_interpolator
         */
         public static final int ActionsContentView_effects_interpolator = 15;
         /**
@@ -347,7 +347,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fade_max_value
+          @attr name shared.ui.actionscontentview:fade_max_value
         */
         public static final int ActionsContentView_fade_max_value = 10;
         /**
@@ -368,7 +368,7 @@ containing a value of this type.
 <tr><td><code>both</code></td><td>3</td><td> Fade applies to every container. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:fade_type
+          @attr name shared.ui.actionscontentview:fade_type
         */
         public static final int ActionsContentView_fade_type = 1;
         /**
@@ -384,7 +384,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:fling_duration
+          @attr name shared.ui.actionscontentview:fling_duration
         */
         public static final int ActionsContentView_fling_duration = 11;
         /**
@@ -396,7 +396,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:shadow_drawable
+          @attr name shared.ui.actionscontentview:shadow_drawable
         */
         public static final int ActionsContentView_shadow_drawable = 8;
         /**
@@ -414,7 +414,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:shadow_width
+          @attr name shared.ui.actionscontentview:shadow_width
         */
         public static final int ActionsContentView_shadow_width = 9;
         /**
@@ -432,7 +432,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:spacing
+          @attr name shared.ui.actionscontentview:spacing
         */
         public static final int ActionsContentView_spacing = 4;
         /**
@@ -451,7 +451,7 @@ containing a value of this type.
 <tr><td><code>actions_width</code></td><td>1</td><td> Spacing will be calculated as right bound of actions container. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:spacing_type
+          @attr name shared.ui.actionscontentview:spacing_type
         */
         public static final int ActionsContentView_spacing_type = 0;
         /**
@@ -469,7 +469,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:swiping_edge_width
+          @attr name shared.ui.actionscontentview:swiping_edge_width
         */
         public static final int ActionsContentView_swiping_edge_width = 12;
         /**
@@ -488,7 +488,7 @@ containing a value of this type.
 <tr><td><code>edge</code></td><td>1</td><td> Swiping will be handled starting from screen edge only. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:swiping_type
+          @attr name shared.ui.actionscontentview:swiping_type
         */
         public static final int ActionsContentView_swiping_type = 3;
     };

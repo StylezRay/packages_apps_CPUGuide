@@ -1,9 +1,0 @@
-<resources>
-
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="divider_size">.7dp</dimen>
-    <dimen name="divider_large_size">1.7dp</dimen>
-    <dimen name="actions_spacing">38dp</dimen>
-
-</resources>
