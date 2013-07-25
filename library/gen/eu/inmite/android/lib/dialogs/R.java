@@ -231,7 +231,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name eu.inmite.android.lib.dialogs:buttonBackgroundColorFocused
+          @attr name android:buttonBackgroundColorFocused
         */
         public static final int DialogStyle_buttonBackgroundColorFocused = 8;
         /**
@@ -243,7 +243,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name eu.inmite.android.lib.dialogs:buttonBackgroundColorNormal
+          @attr name android:buttonBackgroundColorNormal
         */
         public static final int DialogStyle_buttonBackgroundColorNormal = 6;
         /**
@@ -255,7 +255,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name eu.inmite.android.lib.dialogs:buttonBackgroundColorPressed
+          @attr name android:buttonBackgroundColorPressed
         */
         public static final int DialogStyle_buttonBackgroundColorPressed = 7;
         /**
@@ -267,7 +267,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name eu.inmite.android.lib.dialogs:buttonSeparatorColor
+          @attr name android:buttonSeparatorColor
         */
         public static final int DialogStyle_buttonSeparatorColor = 5;
         /**
@@ -279,7 +279,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name eu.inmite.android.lib.dialogs:buttonTextColor
+          @attr name android:buttonTextColor
         */
         public static final int DialogStyle_buttonTextColor = 4;
         /**
@@ -289,7 +289,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name eu.inmite.android.lib.dialogs:dialogBackground
+          @attr name android:dialogBackground
         */
         public static final int DialogStyle_dialogBackground = 0;
         /**
@@ -301,7 +301,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name eu.inmite.android.lib.dialogs:messageTextColor
+          @attr name android:messageTextColor
         */
         public static final int DialogStyle_messageTextColor = 3;
         /**
@@ -313,7 +313,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name eu.inmite.android.lib.dialogs:titleSeparatorColor
+          @attr name android:titleSeparatorColor
         */
         public static final int DialogStyle_titleSeparatorColor = 2;
         /**
@@ -325,7 +325,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name eu.inmite.android.lib.dialogs:titleTextColor
+          @attr name android:titleTextColor
         */
         public static final int DialogStyle_titleTextColor = 1;
         /** Attributes that can be used with a StyledDialogs.
@@ -348,7 +348,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name eu.inmite.android.lib.dialogs:sdlDialogStyle
+          @attr name android:sdlDialogStyle
         */
         public static final int StyledDialogs_sdlDialogStyle = 0;
     };

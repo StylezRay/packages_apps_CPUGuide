@@ -259,7 +259,6 @@ public abstract class BaseDialogFragment extends DialogFragment {
 			return v;
 		}
 
-		@SuppressWarnings("deprecation")
 		private View getDialogLayoutAndInitTitle() {
 			View v = mInflater.inflate(R.layout.dialog_part_title, mContainer, false);
 			TextView tvTitle = (TextView) v.findViewById(R.id.sdl__title);
@@ -275,7 +274,6 @@ public abstract class BaseDialogFragment extends DialogFragment {
 			return v;
 		}
 
-		@SuppressWarnings("deprecation")
 		private void addButtons(LinearLayout llListDialog) {
 			if (mNegativeButtonText != null || mNeutralButtonText != null || mPositiveButtonText != null) {
 				View viewButtonPanel = mInflater.inflate(R.layout.dialog_part_button_panel, llListDialog, false);
@@ -301,7 +299,6 @@ public abstract class BaseDialogFragment extends DialogFragment {
 			}
 		}
 
-		@SuppressWarnings("deprecation")
 		private boolean addNegativeButton(ViewGroup parent, boolean addDivider) {
 			if (mNegativeButtonText != null) {
 				if (addDivider) {
@@ -318,7 +315,6 @@ public abstract class BaseDialogFragment extends DialogFragment {
 			return addDivider;
 		}
 
-		@SuppressWarnings("deprecation")
 		private boolean addPositiveButton(ViewGroup parent, boolean addDivider) {
 			if (mPositiveButtonText != null) {
 				if (addDivider) {
@@ -335,7 +331,6 @@ public abstract class BaseDialogFragment extends DialogFragment {
 			return addDivider;
 		}
 
-		@SuppressWarnings("deprecation")
 		private boolean addNeutralButton(ViewGroup parent, boolean addDivider) {
 			if (mNeutralButtonText != null) {
 				if (addDivider) {
@@ -352,7 +347,6 @@ public abstract class BaseDialogFragment extends DialogFragment {
 			return addDivider;
 		}
 
-		@SuppressWarnings("deprecation")
 		private void addDivider(ViewGroup parent) {
 			View view = mInflater.inflate(R.layout.dialog_part_button_separator, parent, true);
 			view.findViewById(R.id.dialog_button_separator).setBackgroundDrawable(new ColorDrawable(mButtonSeparatorColor));
@@ -370,10 +364,6 @@ public abstract class BaseDialogFragment extends DialogFragment {
 			background.addState(focusedState, colorFocused);
 			background.addState(defaultState, colorDefault);
 			return background;
-		}
-
-		public DialogFragment getmDialogFragment() {
-			return mDialogFragment;
 		}
 	}
 }
